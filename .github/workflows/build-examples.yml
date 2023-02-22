@@ -34,7 +34,7 @@ jobs:
       - run: npm link
       - run: npm install
         working-directory: examples/${{ matrix.example }}
-      - run: npm link next-pwa
+      - run: npm link jack-pwa
         working-directory: examples/${{ matrix.example }}
       - run: npm run build
         working-directory: examples/${{ matrix.example }}
